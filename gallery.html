@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <h1 class="heading">Image Gallery</h1>
+    <div class="imgGallery">
+        <div class="searchBox">
+            <label>Search:</label>
+            <input type="search" class="search">
+        </div>
+        <div class="nav">
+            <div class="items">
+                <div class="item active" data-filter="All">All</div>
+                <div class="item" data-filter="Flowers">Flowers</div>
+                <div class="item" data-filter="Laptops">Laptops</div>
+                <div class="item" data-filter="Bags">Bags</div>
+                <div class="item" data-filter="Sneakers">Sneakers</div>
+                <div class="item" data-filter="Watches">Watches</div>
+            </div>
+        </div>
+        <div class="imgContainer">
+            <div class="gallery">
+                <div class="image Bags" data-name="bag"><span><img src="https://img.drz.lazcdn.com/static/pk/p/e5aca419882f7a3a46014055a46c7eb3.jpg_960x960q80.jpg_.webp" alt=""></span></div>
+                <div class="image Bags" data-name="bag"><span><img src="https://www.vegas.pk/beta-admin/public/storage/images/product/1690287263-0-9c693b06-2ae4-11ee-9c7b-0242ac110005.jpg" alt=""></span></div>
+                <div class="image Bags" data-name="bag"><span><img src="https://www.bagerz.com/cdn/shop/files/berrybags_89.png?v=1727158584&width=2048" alt=""></span></div>
+                <div class="image Bags" data-name="bag"><span><img src="https://m.media-amazon.com/images/I/61GpT8+nFXL._AC_SL1000_.jpg" alt=""></span></div>
+                <div class="image Bags" data-name="bag"><span><img src="https://oldschoolbags.nl/wp-content/uploads/2025/09/Leren-laptoptas-Winston-in-bruin-en-zwart-1024x588.jpg" alt=""></span></div>
+                <div class="image Bags" data-name="bag"><span><img src="https://flairworld.pk/cdn/shop/files/1_eea09c49-249d-4a47-9384-e191e860e8a6.png?v=1702312383" alt=""></span></div>
+                <div class="image Bags" data-name="bag"><span><img src="https://my.tommy.com/on/demandware.static/-/Sites/default/dwd3b1546a/visual-filters/th0826/32_tommy_hilfiger_aug_plp_53_visual_filter.jpg" alt=""></span></div>
+                <div class="image Bags" data-name="bag"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQHmZTRT20F9o6wlvT_wZKNY33UaHBim11g&s" alt=""></span></div>
+                <div class="image Bags" data-name="bag"><span><img src="https://shop.mango.com/assets/rcs/pics/static/T7/fotos/S/77032543_99.jpg?imwidth=2048&imdensity=1&ts=1715620096820" alt=""></span></div>
+                <div class="image Bags" data-name="bag"><span><img src="https://images-cdn.ubuy.com.pk/675b845e773e1d3bf50fe289-new-mini-women-039-s-backpack-pu.jpg" alt=""></span></div>
+                
+                <div class="image Flowers" data-name="flowers"><span><img src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt5f18c2119ce26485/6668df65db90945e0caf9be6/beautiful-flowers-lotus.jpg?q=70&width=3840&auto=webp" alt=""></span></div>
+                <div class="image Flowers" data-name="flowers"><span><img src="https://www.blossominggifts.com/blog/wp-content/uploads/2024/01/red-rose-flowers-840x473.jpg" alt=""></span></div>
+                <div class="image Flowers" data-name="flowers"><span><img src="https://ecogardener.com/cdn/shop/articles/Best_Spring_Flowers_For_Your_Garden-min_c03d5cc8-f5d2-4455-a2d5-c4620051e200.jpg?v=1764554210" alt=""></span></div>
+                <div class="image Flowers" data-name="flowers"><span><img src="https://housing.com/news/wp-content/uploads/2023/12/How-to-grow-and-care-for-Cape-Marguerite-f.jpg" alt=""></span></div>
+                <div class="image Flowers" data-name="flowers"><span><img src="https://veggiegardenseeds.com.au/cdn/shop/files/cosmos-gloria-flower-seeds_b4ce3aab-253c-43be-947e-cfa61963b0f5.jpg?v=1702364825&width=1080" alt=""></span></div>
+                <div class="image Flowers" data-name="flowers"><span><img src="https://www.interflora.in/blog/wp-content/uploads/2024/06/Guide-to-Indian-Flowers.webp" alt=""></span></div>
+
+                <div class="image Laptops" data-name="laptop"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRarJWu04CGkt1CJsrZ32kZ6RKx5sedqWiB0A&s" alt=""></span></div>
+                <div class="image Laptops" data-name="laptop"><span><img src="https://cdn.thewirecutter.com/wp-content/media/2024/07/laptopstopicpage-2048px-3685-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp" alt=""></span></div>
+                <div class="image Laptops" data-name="laptop"><span><img src="https://static.webx.pk/files/1425/Images/111-1425-2523835-150126084117315.webp" alt=""></span></div>
+                <div class="image Laptops" data-name="laptop"><span><img src="https://awaisinternational.com/wp-content/uploads/2025/02/hp_elitebook_mobile.jpg" alt=""></span></div>
+                <div class="image Laptops" data-name="laptop"><span><img src="https://www.cnet.com/a/img/resize/d3e3a74e73db7587031df288b0c64ce26eb8127d/hub/2025/09/17/1028673c-da84-4f71-a742-765e7211dee9/lenovo-legion-5i-gen-10-overview.jpg?auto=webp&height=500" alt=""></span></div>
+                <div class="image Laptops" data-name="laptop"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRInwp3KwXrDSLlYu5VB6A5wwEG-yblJD_EOw&s" alt=""></span></div>
+
+
+                <div class="image Sneakers" data-name="Sneaker"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqensvcgF4tXlaVB1hBwRsnpoLLK5nOnx3rA&s" alt=""></span></div>
+                <div class="image Sneakers" data-name="Sneaker"><span><img src="https://oshi.pk/cdn/shop/files/white-casual-sneaker-for-men-copy-16373-585_61362278-ffed-4322-8484-b4fde2b08ff4.jpg?v=1734429348" alt=""></span></div>
+                <div class="image Sneakers" data-name="Sneaker"><span><img src="https://aiksow.pk/wp-content/uploads/2023/12/Introducing-our-dynamic-Red-Mesh-Sneakers-a-perfect-fusion-of-style-and-breathability-designed-for-the-modern-man.-Elevate-your-footwear-collection-with-thes-3-scaled.webp" alt=""></span></div>
+                <div class="image Sneakers" data-name="Sneaker"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRghNE7Y2JpBDxT2W4uOC9YAeB8Tw_pw0a36Q&s" alt=""></span></div>
+                <div class="image Sneakers" data-name="Sneaker"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5vNZC5wfLf8jYEaW79RhRrwpmNBcFgHxKXQ&s" alt=""></span></div>
+                <div class="image Sneakers" data-name="Sneaker"><span><img src="https://img.drz.lazcdn.com/static/bd/p/6502ea35eac4cbdc199499e394609c5f.jpg_720x720q80.jpg" alt=""></span></div>
+                <div class="image Sneakers" data-name="Sneaker"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcPVuoT32ALfgE6KzXIwN4_V-4JHAxFKeDyQ&s" alt=""></span></div>
+
+                <div class="image Watches" data-name="Watch"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yV8gMxEuEGr_hd30FsYFX1bc0-Z1fdhBiQ&s" alt=""></span></div>
+                <div class="image Watches" data-name="Watch"><span><img src="https://media.beaverbrooks.co.uk/i/beaverbrooks/bulova-collections-marine-star-0425?fmt=jpg&fmt.jpeg.interlaced=true&img404=default-404" alt=""></span></div>
+                <div class="image Watches" data-name="Watch"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX9q-yagYsdZoe-XmlshxJyrMll6O_1I24CQ&s" alt=""></span></div>
+                <div class="image Watches" data-name="Watch"><span><img src="https://aiksow.pk/wp-content/uploads/2023/07/OLEVS-Men-s-Watches-Top-Brand-Luxury-Original-Waterproof-Quartz-Watch-for-Man-Gold-Skeleton-Style-2.jpg" alt=""></span></div>
+                <div class="image Watches" data-name="Watch"><span><img src="https://www.apple.com/v/watch/bt/images/meta/apple-watch__ywfuk5wnf1u2_og.png" alt=""></span></div>
+                <div class="image Watches" data-name="Watch"><span><img src="https://cdn.britannica.com/82/131182-004-E0E2A7CC/face-tritium.jpg" alt=""></span></div>
+                <div class="image Watches" data-name="Watch"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUlIgmXPLwlclbisGs2fEtqqOvbS7BUM1_DQ&s" alt=""></span></div>
+                 <div class="text"></div>
+            </div>
+        </div>
+</div>
+<div class="previewBox">
+    <div class="details">
+        <span class="title">
+            Image <p class="currentImg">1</p> of <p class="totalImg">1</p>
+        </span>
+        <span class="category">Category: <p></p></span>
+        <span class="icon fas fa-times"></span>
+    </div>
+    <div class="imgBox">
+        <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+        <img src="https://img.drz.lazcdn.com/static/pk/p/e5aca419882f7a3a46014055a46c7eb3.jpg_960x960q80.jpg_.webp" class="mainImg">
+        <div class="slide next"><i class="fas fa-angle-right"></i></div>
+    </div>
+</div>
+    <script src="gallery.js"></script>
+</body>
+</html>
